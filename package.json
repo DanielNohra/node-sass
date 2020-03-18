@@ -4,8 +4,8 @@
   "libsass": "3.6.0",
   "description": "Wrapper around libsass",
   "license": "MIT",
-  "bugs": "https://github.com/sass/node-sass/issues",
-  "homepage": "https://github.com/sass/node-sass",
+  "bugs": "https://github.com/DanielNohra/node-sass/issues",
+  "homepage": "https://github.com/DanielNohra/node-sass",
   "repository": {
     "type": "git",
     "url": "https://github.com/DanielNohra/node-sass"
@@ -20,7 +20,7 @@
   },
   "main": "lib/index.js",
   "nodeSassConfig": {
-    "binarySite": "https://github.com/sass/node-sass/releases/download"
+    "binarySite": "https://github.com/DanielNohra/node-sass/releases/download"
   },
   "bin": {
     "node-sass": "bin/node-sass"
@@ -81,7 +81,7 @@
     "object-merge": "^2.5.1",
     "read-yaml": "^1.0.0",
     "rimraf": "^2.5.2",
-    "sass-spec": "https://github.com/sass/sass-spec.git#dc2d573",
+    "sass-spec": "https://github.com/sass/sass-spec.git",
     "unique-temp-dir": "^1.0.0"
   }
 }
