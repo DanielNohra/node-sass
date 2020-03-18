@@ -1,6 +1,6 @@
 {
   "name": "node-sass",
-  "version": "4.13.2",
+  "version": "4.13.1",
   "libsass": "3.6.0",
   "description": "Wrapper around libsass",
   "license": "MIT",
