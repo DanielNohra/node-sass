@@ -1,7 +1,7 @@
 {
   "name": "node-sass",
   "version": "4.13.1",
-  "libsass": "3.6.0",
+  "libsass": "3.6.3",
   "description": "Wrapper around libsass",
   "license": "MIT",
   "bugs": "https://github.com/DanielNohra/node-sass/issues",

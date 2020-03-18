@@ -14,7 +14,7 @@ sudo: required
 # this will still catch all coding errors!
 # - AUTOTOOLS=yes COVERAGE=no BUILD=static
 
-# currenty there are various issues when
+# currently there are various issues when
 # built with coverage, clang and autotools
 # - AUTOTOOLS=yes COVERAGE=yes BUILD=shared
 
@@ -32,6 +32,15 @@ matrix:
             - ubuntu-toolchain-r-test
           packages:
             - g++-5
+    - os: linux
+      compiler: g++-8
+      env: AUTOTOOLS=yes COVERAGE=no BUILD=shared
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - g++-8
     - os: linux
       compiler: clang
       # This build runs with ASan and we set `detect_odr_violation=0`
